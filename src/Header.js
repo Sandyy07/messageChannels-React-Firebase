@@ -11,7 +11,7 @@ function Header() {
   const [{user}] =useStateValue();
   return (
     <div className='header'>
-        <div className="header__left">
+        <div className="header_left">
         <Avatar
             className="header_avatar"
             alt={user?.displayname}
@@ -20,11 +20,11 @@ function Header() {
             
             <AccessTimeIcon/>
         </div>
-        <div className="header__search">
+        <div className="header_search">
         <SearchIcon />
                 <input placeholder = "search hello world" /> 
         </div>
-        <div className="header__right">
+        <div className="header_right">
         <HelpOutlineIcon />
         </div>
     </div>
